@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInputActivity"
+    android:background="#A9CFED">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_music"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_centerVertical="true"
+        app:cardBackgroundColor="#068FF6"
+        >
+        <EditText
+            android:id="@+id/ed_bpS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Systolic Pressure  (mmhg)"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/ed_bpD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diastolic Pressure  (mmhg)"
+            android:layout_marginTop="50dp"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/ed_hr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heart rate (Beats per min)"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/ed_breathe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Breath rate  (Breaths per min)"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="150dp"
+            android:singleLine="true"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

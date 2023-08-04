@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/forhomescreen.xml" value="0.1235" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.138" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/ic_pause.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/ic_pause_white.xml" value="0.123" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/ic_play_circle.xml" value="0.123" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/ic_shuffle.xml" value="0.123" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/layoutforserarch.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/drawable/roundbutton.xml" value="0.123" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_music_player.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_playlist.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_practice.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_user_input.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/activity_user_preference_music.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/music_list.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/layout/raw.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MusicTherapy/app/src/main/res/menu/music_navigation.xml" value="0.17135416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
