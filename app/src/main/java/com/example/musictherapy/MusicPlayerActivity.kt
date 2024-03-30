@@ -183,7 +183,7 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 isplay = !isplay
             }
-            R.id.ic_arrow_back -> {
+            R.id.ic_arrow_back -> {2
                 if (position!! > 0 && position!! < 3) {
                     position = position!! - 1
                     music?.stop()
