@@ -94,7 +94,7 @@ class  UserPreferenceMusicActivity : AppCompatActivity() {
         when (intent.getStringExtra("class")) {
             "MusicAdapter" -> {
                 UserPreferenceMusicActivity.musicListU = ArrayList()
-                UserPreferenceMusicActivity.musicListU.addAll(playlistActivity.MusicListPA)
+                UserPreferenceMusicActivity.musicListU.addAll(PlaylistActivity.MusicListPA)
                 createMediaPlayer()
             }
         }

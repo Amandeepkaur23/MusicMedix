@@ -6,6 +6,7 @@ import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.view.View
 import android.widget.*
@@ -20,8 +21,6 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
     private var ic_arrow_forward: ImageView? = null
     private var continue_music_preference:Button? = null
     private var isplay: Boolean = true     //for toggling
-    private var handler:Handler = Handler()
-
     private var generate_random: Long = 0
     private var dec_anixety: RelativeLayout? = null
 
@@ -53,10 +52,10 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
         //function call
 
 
-        var BPSmusic = intent.getIntExtra("ed_bpS",0)
-        var BPDmusic = intent.getIntExtra("ed_bpD",0)
-        var HRmusic = intent.getIntExtra("ed_hr",0)
-        var BRmusic = intent.getIntExtra("ed_breathe",0)
+        val BPSmusic = intent.getIntExtra("ed_bpS",0)
+        val BPDmusic = intent.getIntExtra("ed_bpD",0)
+        val HRmusic = intent.getIntExtra("ed_hr",0)
+        val BRmusic = intent.getIntExtra("ed_breathe",0)
 
         if(BPSmusic >= 120)
         {
@@ -97,13 +96,13 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
         }
         init()
         listener()
-        generate_random_method()
+        generateRandomMethod()
 
-//        var heartrate = 10
-//        if(heartrate==10){
+//        var heartRate = 10
+//        if(heartRate==10){
 //            //first music
-//            Toast.makeText(this, "runnin first if block", Toast.LENGTH_SHORT).show()
-//        }else if (heartrate==20){
+//            Toast.makeText(this, "running first if block", Toast.LENGTH_SHORT).show()
+//        }else if (heartRate==20){
 //
 //        }
 
@@ -128,7 +127,7 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
        })
 
         continue_music_preference?.isEnabled = false
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             continue_music_preference?.isEnabled = true
         }, generate_random)
     }
@@ -171,7 +170,7 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                         Log.i("Position","Position is : ${arrayList.size}")
                         music = MediaPlayer.create(this, arrayList.get(position).music)
                         music!!.start()
-                        var durationInMillis: Long = music!!.duration.toLong()
+                        val durationInMillis: Long = music!!.duration.toLong()
                         formatDuration(durationInMillis)
                         seekbarupdater()
                         ic_play_circle?.setImageResource(R.drawable.ic_pause)
@@ -183,12 +182,12 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 isplay = !isplay
             }
-            R.id.ic_arrow_back -> {2
-                if (position!! > 0 && position!! < 3) {
-                    position = position!! - 1
+            R.id.ic_arrow_back -> {
+                if (position > 0 && position < 3) {
+                    position = position - 1
                     music?.stop()
-                    music = MediaPlayer.create(this, arrayList.get(position!!).music)
-                    var durationInMillis: Long = music!!.duration.toLong()
+                    music = MediaPlayer.create(this, arrayList.get(position).music)
+                    val durationInMillis: Long = music!!.duration.toLong()
                     formatDuration(durationInMillis)
                     music!!.start()
                     seekbarupdater()
@@ -196,9 +195,9 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                     isplay = false
                 } else {
                     music?.stop()
-                    music = MediaPlayer.create(this, arrayList.get(position!!).music)
+                    music = MediaPlayer.create(this, arrayList.get(position).music)
                     music!!.start()
-                    var durationInMillis: Long = music!!.duration.toLong()
+                    val durationInMillis: Long = music!!.duration.toLong()
                     formatDuration(durationInMillis)
                     seekbarupdater()
                     ic_play_circle?.setImageResource(R.drawable.ic_pause)
@@ -208,10 +207,10 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
             R.id.ic_arrow_forward -> {
                 position = position.plus(1)
                 music?.stop()
-                if (position!! < arrayList.size) {
-                    music = MediaPlayer.create(this, arrayList.get(position!!).music)
+                if (position < arrayList.size) {
+                    music = MediaPlayer.create(this, arrayList.get(position).music)
                     music!!.start()
-                    var durationInMillis: Long = music!!.duration.toLong()
+                    val durationInMillis: Long = music!!.duration.toLong()
                     formatDuration(durationInMillis)
                     seekbarupdater()
                     ic_play_circle?.setImageResource(R.drawable.ic_pause)
@@ -220,9 +219,9 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                 } else {
                     position = 0
                     music?.stop()
-                    music = MediaPlayer.create(this, arrayList.get(position!!).music)
+                    music = MediaPlayer.create(this, arrayList.get(position).music)
                     music!!.start()
-                    var durationInMillis: Long = music!!.duration.toLong()
+                    val durationInMillis: Long = music!!.duration.toLong()
                     formatDuration(durationInMillis)
                     seekbarupdater()
                     ic_play_circle?.setImageResource(R.drawable.ic_pause)
@@ -230,7 +229,7 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
             R.id.continue_music_preference->{
-                val intent = Intent(this, playlistActivity:: class.java)
+                val intent = Intent(this, PlaylistActivity::class.java)
                 startActivity(intent)
                 music?.stop()
             }
@@ -246,17 +245,17 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
         if (music!!.isPlaying){
             val currentpos:Int = music!!.currentPosition/1000
             seekbar?.progress = currentpos
-            handler.postDelayed(updater,1000)
+            Handler(Looper.getMainLooper()).postDelayed(updater,1000)
 
         }
     }
-    private fun generate_random_method()
+    private fun generateRandomMethod()
     {
         generate_random = (10000..20000).random().toLong()
     }
     private fun setBackgroundWithDelay(layout: RelativeLayout?, colorName: String, delayMillis: Long) {
         val color = Color.parseColor(colorName)
-        val handler = Handler()
+        val handler = Handler(Looper.getMainLooper())
         val runnable = Runnable {
             layout?.setBackgroundColor(color)
         }
@@ -267,24 +266,24 @@ class MusicPlayerActivity : AppCompatActivity(), View.OnClickListener {
     private fun milliseconds(milliseconds: Long): String {
         var timeString = ""
         var secondString = ""
-        var hours = (milliseconds / (1000 * 60 * 60)).toInt()
+        val hours = (milliseconds / (1000 * 60 * 60)).toInt()
         val minutes = (milliseconds % (1000 * 60 * 60)) / (1000 * 60)
         val seconds = (milliseconds % (1000 * 60 * 60)) % (1000 * 60) / 1000 // divide by 1000 to get seconds
         if (hours > 0) {
             timeString = "$hours:"
         }
-        if (seconds < 10) {
-            secondString = "0$seconds"
+        secondString = if (seconds < 10) {
+            "0$seconds"
         } else {
-            secondString = "$seconds"
+            "$seconds"
         }
-        timeString = timeString + minutes + ":" + secondString
+        timeString = "$timeString$minutes:$secondString"
         return timeString
     }
     private fun formatDuration(duration: Long){
         val min = TimeUnit.MINUTES.convert(duration, TimeUnit.MILLISECONDS)
         val sec = (TimeUnit.SECONDS.convert(duration, TimeUnit.MILLISECONDS) - min*TimeUnit.SECONDS.convert(1, TimeUnit.MINUTES))
-        var time =  String.format("%02d:%02d", min, sec)
-        txt_end_time.setText(time)
+        val time =  String.format("%02d:%02d", min, sec)
+        txt_end_time.text = time
     }
 }

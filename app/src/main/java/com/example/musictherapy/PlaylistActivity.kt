@@ -6,7 +6,6 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.text.Selection
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
@@ -14,7 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import java.io.File
 
-class playlistActivity : AppCompatActivity() {
+class PlaylistActivity : AppCompatActivity() {
 
 //    private lateinit var toggle: ActionBarDrawerToggle
 //    private lateinit var draw_layout: DrawerLayout

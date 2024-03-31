@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
             }
             R.id.btn_userP->{
-                val intent = Intent(this, playlistActivity::class.java)
+                val intent = Intent(this, PlaylistActivity::class.java)
                 startActivity(intent)
             }
         }
