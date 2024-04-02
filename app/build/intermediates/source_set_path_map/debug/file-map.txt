@@ -1,0 +1,37 @@
+com.example.musictherapy.app-appcompat-resources-1.6.1-0 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\05c7963c5b78615e2170043d4dd5d7e5\transformed\appcompat-resources-1.6.1\res
+com.example.musictherapy.app-fragment-1.3.6-1 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\0814a142ad1dd5b790d941dd8dce2a92\transformed\fragment-1.3.6\res
+com.example.musictherapy.app-drawerlayout-1.1.1-2 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\14fb7321df2c8efd84e881f44ffe8981\transformed\drawerlayout-1.1.1\res
+com.example.musictherapy.app-lifecycle-livedata-2.6.1-3 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\1f7c2b1373ceef599664a0f7dda74acf\transformed\lifecycle-livedata-2.6.1\res
+com.example.musictherapy.app-glide-4.12.0-4 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\214abcb863f056a9333748d915ed4cfc\transformed\glide-4.12.0\res
+com.example.musictherapy.app-appcompat-1.6.1-5 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\2303021cb7f3f78c4bc1b8231e5ae854\transformed\appcompat-1.6.1\res
+com.example.musictherapy.app-savedstate-1.2.1-6 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\24a33f6c58ce47136219c8ef40630553\transformed\savedstate-1.2.1\res
+com.example.musictherapy.app-core-ktx-1.12.0-7 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\25d8c22daa96a1c04b5fa3d9123a4a90\transformed\core-ktx-1.12.0\res
+com.example.musictherapy.app-core-runtime-2.2.0-8 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\2a2991bea4032cd791867b86327229dc\transformed\core-runtime-2.2.0\res
+com.example.musictherapy.app-viewpager2-1.1.0-beta02-9 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\3a3c485d313b5cae9107569d328ef279\transformed\viewpager2-1.1.0-beta02\res
+com.example.musictherapy.app-cardview-1.0.0-10 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\5938433006c76a70637123477baffd0f\transformed\cardview-1.0.0\res
+com.example.musictherapy.app-lifecycle-viewmodel-2.6.1-11 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\6831793f018504aeea50ff59b6f1f543\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.musictherapy.app-lifecycle-viewmodel-savedstate-2.6.1-12 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\7d94230c34dbfb50fe615990d3b0a73c\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.musictherapy.app-constraintlayout-2.1.4-13 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\8177fc0ae5949b09fa6ab8b305676505\transformed\constraintlayout-2.1.4\res
+com.example.musictherapy.app-annotation-experimental-1.3.0-14 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\872b7857e8caa0e6434b6ddf3a15bc71\transformed\annotation-experimental-1.3.0\res
+com.example.musictherapy.app-customview-poolingcontainer-1.0.0-15 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\88d637d3969cba4f532fa1bc1db09a6c\transformed\customview-poolingcontainer-1.0.0\res
+com.example.musictherapy.app-lifecycle-process-2.6.1-16 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\8af54e0bac94692eca074d1ccbe92802\transformed\lifecycle-process-2.6.1\res
+com.example.musictherapy.app-activity-1.8.0-17 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\8c65ab0b27d4946b7dde4bbe5fc9b5b9\transformed\activity-1.8.0\res
+com.example.musictherapy.app-startup-runtime-1.1.1-18 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\8d71459ff4b6a1fa83de23a6a694dc65\transformed\startup-runtime-1.1.1\res
+com.example.musictherapy.app-core-1.12.0-19 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\97e765d7646eda9d89caa6262cf470cb\transformed\core-1.12.0\res
+com.example.musictherapy.app-recyclerview-1.3.2-20 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\aaf48d3cb7124a0606bfd5bd321709d9\transformed\recyclerview-1.3.2\res
+com.example.musictherapy.app-lottie-5.2.0-21 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\ad529ec77fd53a15a632938298bd9358\transformed\lottie-5.2.0\res
+com.example.musictherapy.app-emoji2-1.2.0-22 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\ba52cbd3723cf662cdfc624d34e7809f\transformed\emoji2-1.2.0\res
+com.example.musictherapy.app-profileinstaller-1.3.0-23 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\ca010a0ffcbed2c7c8a10ed728d7775b\transformed\profileinstaller-1.3.0\res
+com.example.musictherapy.app-transition-1.2.0-24 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\d2dc903d36dff689c28920e041dbe2b4\transformed\transition-1.2.0\res
+com.example.musictherapy.app-lifecycle-runtime-2.6.1-25 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\d4dbc17f038e0b2f9169fcad6ca42222\transformed\lifecycle-runtime-2.6.1\res
+com.example.musictherapy.app-material-1.11.0-26 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\eaf6cb842bf96a5d1b11db61b47f74be\transformed\material-1.11.0\res
+com.example.musictherapy.app-coordinatorlayout-1.1.0-27 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\eb0d6b6e1094c723ecdc033cf5f1650b\transformed\coordinatorlayout-1.1.0\res
+com.example.musictherapy.app-lifecycle-livedata-core-2.6.1-28 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\eb82d03e2abcaac43cb63f01bcf8aede\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.musictherapy.app-emoji2-views-helper-1.2.0-29 C:\Program Files\Android\Android Studio\jre\caches\transforms-3\fe7d5922fdbcbc9c6cb2470ce49bf904\transformed\emoji2-views-helper-1.2.0\res
+com.example.musictherapy.app-pngs-30 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\build\generated\res\pngs\debug
+com.example.musictherapy.app-resValues-31 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\build\generated\res\resValues\debug
+com.example.musictherapy.app-packageDebugResources-32 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.musictherapy.app-packageDebugResources-33 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.musictherapy.app-merged_res-34 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\build\intermediates\merged_res\debug
+com.example.musictherapy.app-debug-35 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\src\debug\res
+com.example.musictherapy.app-main-36 C:\Users\user\AndroidStudioProjects\MusicTherapy\app\src\main\res
